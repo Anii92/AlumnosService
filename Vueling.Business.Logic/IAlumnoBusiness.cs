@@ -7,8 +7,11 @@ using Vueling.Common.Logic.Models;
 
 namespace Vueling.Business.Logic
 {
-    public interface IAlumnoBL
+    public interface IAlumnoBusiness
     {
         List<Alumno> Leer();
+        Alumno LeerById(int id);
+        int DeleteById(int id);
+        Alumno Create(Alumno alumno);
     }
 }

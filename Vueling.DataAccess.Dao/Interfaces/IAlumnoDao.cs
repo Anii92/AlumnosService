@@ -7,11 +7,10 @@ using Vueling.Common.Logic.Models;
 
 namespace Vueling.DataAccess.Dao.Interfaces
 {
-    public interface IAlumnoDao
+    public interface IAlumnoDao: IRead, IDelete
     {
-        //Alumno Add(Alumno alumno);
-        //void CargarDatosDeLosAlumnos(Formato Formato);
-        List<Alumno> Leer();
-        //int DeleteByGuid(string guid);
+        List<Alumno> ReadAll();
+        Alumno ReadById(int id);
+        Alumno DeleteById(int id);
     }
 }

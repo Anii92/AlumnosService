@@ -1,0 +1,4 @@
+2018-05-03 18:54:16,312 DEBUG Vueling.Business.Common.Loggers.Log4NetAdapter Debug -Start function:Add
+2018-05-03 18:54:16,378 DEBUG Vueling.Business.Common.Loggers.Log4NetAdapter Debug -Start function:ReadByGuid
+2018-05-03 18:54:16,394 DEBUG Vueling.Business.Common.Loggers.Log4NetAdapter Debug -End function:ReadByGuid
+2018-05-03 18:54:16,396 DEBUG Vueling.Business.Common.Loggers.Log4NetAdapter Debug -End function:Add

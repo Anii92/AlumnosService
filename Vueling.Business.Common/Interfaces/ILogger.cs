@@ -7,7 +7,7 @@ namespace Vueling.Common.Logic.Interfaces
     {
         void Info(Object message);
         void Warn(Object message);
-        void Debug(Object alumno);
+        void Debug(Object message);
         void Error(Object message);
         void Fatal(Object message);
     }

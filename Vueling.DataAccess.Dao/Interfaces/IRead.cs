@@ -9,8 +9,9 @@ namespace Vueling.DataAccess.Dao.Interfaces
 {
     public interface IRead
     {
-        List<Alumno> Read();
+        List<Alumno> ReadAll();
         //Object GetById(int id);
-        Object ReadByGuid(string guid);
+        Alumno ReadByGuid(string guid);
+        Alumno ReadById(int id);
     }
 }
